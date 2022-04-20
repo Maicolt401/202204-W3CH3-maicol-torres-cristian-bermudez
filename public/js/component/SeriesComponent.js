@@ -4,7 +4,7 @@ class SerieComponent extends Component {
   constructor(parentElement, nameClass) {
     super(parentElement, "section", nameClass);
     this.element.innerHTML = `
-    <section class="series-watched">
+      <section class="series-watched">
           <h3 class="subsection-title">Watched series</h3>
           <p class="info">You have watched 4 series</p>
           <!--<p class="info">You already have not watched any serie</p>-->
@@ -119,7 +119,7 @@ class SerieComponent extends Component {
             </li>
           </ul>
         </section>
-     <section class="series">
+       <section class="series">
           <h2 class="section-title">Series list</h2>
           <section class="series-pending">
             <h3 class="subsection-title">Pending series</h3>
