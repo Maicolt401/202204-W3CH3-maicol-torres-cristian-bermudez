@@ -119,7 +119,7 @@ class SerieComponent extends Component {
             </li>
           </ul>
         </section>
-       <section class="series">
+        <section class="series">
           <h2 class="section-title">Series list</h2>
           <section class="series-pending">
             <h3 class="subsection-title">Pending series</h3>
