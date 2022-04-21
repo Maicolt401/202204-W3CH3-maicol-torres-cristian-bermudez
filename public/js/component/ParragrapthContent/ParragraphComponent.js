@@ -1,4 +1,4 @@
-import Component from "../component/Component";
+import Component from "../Component.js";
 
 class Parragraph extends Component {
   text;
