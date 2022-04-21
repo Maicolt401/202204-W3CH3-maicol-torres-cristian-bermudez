@@ -1,6 +1,6 @@
-import SerieComponent from "./js/component/SeriesComponent/SeriesComponent.js";
+import SerieComponent from "./js/component/SeriesComponent/SerieComponent.js";
 
-import SerieCard from "./js/component/SerieCard/SerieCardComponent.js";
+import SerieCard from "./js/component/SerieCard/SerieCard.js";
 
 const mainPhater = document.querySelector("main");
 
