@@ -23,7 +23,7 @@ class SerieCard extends Component {
                   
       </li>
     </ul>
-  <i class="fas fa-times-circle icon--delete"></i>
+  
 
 
 `;
