@@ -1,4 +1,4 @@
-import SerieCard from "./SerieCardComponent";
+import SerieCard from "./SerieCardComponent.js";
 
 describe("Given a component SerieCard", () => {
   describe("When it's instanced inside of a parent element", () => {
