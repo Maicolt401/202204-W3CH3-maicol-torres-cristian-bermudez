@@ -1,11 +1,5 @@
 import SerieComponent from "./js/component/SeriesComponent/SerieComponent.js";
 
-import SerieCard from "./js/component/SerieCard/SerieCard.js";
-
-const mainPhater = document.querySelector("main");
-
-const SeriesComponent = new SerieComponent(mainPhater, "series");
-
 const series = [
   {
     id: 1,
@@ -62,8 +56,6 @@ const series = [
   },
 ];
 
-const mycontainer = document.querySelector(".series-list");
+const mainContainer = document.querySelector(".main");
 
-series.forEach((serie) => new SerieCard(mycontainer, serie));
-
-export default SeriesComponent;
+new SerieComponent(mainContainer, "series", series);
