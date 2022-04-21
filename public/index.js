@@ -1,4 +1,4 @@
-import SerieCard from "./public/js/component/SerieCard/SerieCardComponent.js";
+import SerieCard from "./js/component/SerieCard/SerieCardComponent.js";
 
 const series = [
   {
