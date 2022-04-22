@@ -13,11 +13,7 @@ class SerieComponent extends Component {
   }
 
   deleteSerie(serieID) {
-    for (let id = 0; id < this.series.length; id++) {
-      if (this.series[id].id === serieID) {
-        this.series.splice(id, 1);
-      }
-    }
+    this.series = this.series.filter((serie) => serie.id !== serieID);
     this.render();
   }
 
